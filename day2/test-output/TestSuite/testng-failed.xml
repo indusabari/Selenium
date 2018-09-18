@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="5" name="Testindu1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="day2test.testing">
+        <methods>
+          <include name="testrun"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- day2test.testing -->
+    </classes>
+  </test> <!-- Testindu1(failed) -->
+  <test thread-count="5" name="Testindu2(failed)">
+    <parameter name="browser" value="chrome1"/>
+    <classes>
+      <class name="day2test.testing">
+        <methods>
+          <include name="testrun"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- day2test.testing -->
+    </classes>
+  </test> <!-- Testindu2(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
