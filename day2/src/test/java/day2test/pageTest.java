@@ -6,6 +6,7 @@ public class pageTest {
 	@Test
 	public void test()
 	{
+		//test
 		Object i=12;
 		String a = i.toString();
 		System.out.println(a);
